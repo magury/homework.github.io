@@ -64,7 +64,9 @@
 
         body {
             perspective: 800px;
-            background-color: rgb(0, 0, 0);
+            position: relative;
+            height: 100%;
+
         }
 
         .bigbox {
@@ -779,6 +781,7 @@
         }
 
         .s {
+            display: block;
             position: relative;
             margin-top: -20px;
             margin-left: -26px;
@@ -808,18 +811,32 @@
 
         .intro {
             position: absolute;
-            top: 50%;
-            left: -20%;
+            top: 55%;
+            left: 50%;
+            transform: translate(-50%, -50%);
             width: 170px;
             height: 15px;
-            color: rgb(0, 0, 0);
-            background-color: rgb(235, 94, 162);
+            color: rgb(246, 86, 86);
+            /* background-color: rgb(235, 94, 162); */
             font-size: 12px;
+            text-align: center;
+        }
+
+        .bodybackgorund {
+            position: absolute;
+            background-size: 100%;
+            background-image: url(./qq.jpg);
+            filter: opacity(30%);
+            height: 580px;
+            width: 100%;
         }
     </style>
 </head>
 
 <body>
+    <div class="bodybackgorund">
+
+    </div>
     <div class="bigbox">
         <div class="laststick"></div>
         <div class="box0">
@@ -1686,5 +1703,7 @@
         因为我还能克制，我有本事喜欢你。 就有本事放在内心深处。 我觉得双向奔赴的爱情才有意义。 
         所以等你什么时候心里有我了 我再好好爱你      祝福不了你幸福。就祝福你平安吧！ 
     -->
-
+<script>
+    // 动画放文字
+</script>
 </html>
