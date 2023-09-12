@@ -780,7 +780,7 @@
             height: 200px;
             /* background-color: pink; */
             animation-name: fun;
-            animation-duration: 10s;
+            animation-duration: 5s;
             animation-iteration-count: infinite;
             animation-fill-mode: forwards;
             animation-timing-function: ease-out;
@@ -792,11 +792,11 @@
 
             0%,
             100% {
-                transform: rotateY(-60deg);
+                transform: rotateY(-10deg);
             }
 
             50% {
-                transform: rotateY(60deg);
+                transform: rotateY(10deg);
             }
         }
 
